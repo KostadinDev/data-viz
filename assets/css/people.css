@@ -1,0 +1,25 @@
+img {
+    z-index:1;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius:5px;
+}
+
+.portraits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.page{
+    display:block;
+    z-index:5;
+    position:relative;
+}
+
+.behind{
+    display:block;
+    z-index:3;
+}

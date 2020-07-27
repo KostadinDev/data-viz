@@ -1,0 +1,12 @@
+img {
+    width: 300px;
+    margin: 10px;
+    border-radius:5px;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

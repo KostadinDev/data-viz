@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>DV Lab</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="assets/css/index.styles.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+    <style>
+
+        body {
+            margin: 0;
+            background: #000;
+        }
+
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -100;
+            transform: translateX(-50%) translateY(-50%);
+            background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+            background-size: cover;
+            transition: 1s opacity;
+        }
+
+        .stopfade {
+            opacity: .5;
+        }
+
+
+    </style>
+</head>
+<body class="landing is-preload">
+
+<!-- Page Wrapper -->
+<div id="page-wrapper">
+
+    <!-- Header -->
+    <header id="header" class="alt">
+        <h1><a href="index.html">Data Visualization Lab</a></h1>
+        <nav id="nav">
+            <ul>
+                <li class="special">
+                    <a href="#menu" class="menuToggle"><span>Menu</span></a>
+                    <div id="menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html">Projects</a></li>
+                            <li><a href="people.html">People</a></li>
+                            <li><a href="partners.html">Partners</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+        <video poster="images/pic01.jpg" id="bgvid" playsinline autoplay
+               muted loop>
+            <!--
+          - Video needs to be muted, since Chrome 66+ will not autoplay video with sound.
+          WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+            <source src="./images/DV_Full.mp4" type="video/mp4">
+
+        </video>
+        <div class="inner">
+            <h2><img src="images/logo_transparent.png" style ="display:flex;justify-content: center; width:100%; max-width:300px;"> </h2>
+            <p>University of Hawaii Hilo<p/>
+            <ul class="actions special">
+                <li><a href="#" class="button primary">Activate</a></li>
+            </ul>
+        </div>
+        <a href="#one" class="more scrolly">Learn More</a>
+    </section>
+
+    <!-- One -->
+    <section id="one" class="wrapper style1 special">
+        <div class="inner">
+            <header class="major">
+                <h2>Research & Development</h2>
+                <p>< Insert a description of the lab and the work it does here></p>
+            </header>
+        </div>
+    </section>
+
+    <!-- Two -->
+    <section id="two" class="wrapper alt style2">
+        <section class="spotlight">
+            <div class="image"><img src="images/pic01.jpg" alt=""/></div>
+            <div class="content">
+                <h2>Project 1</h2>
+                    <p>Project 1 description</p>
+            </div>
+        </section>
+        <section class="spotlight">
+            <div class="image"><img src="images/pic02.jpg" alt=""/></div>
+            <div class="content">
+                <h2>Project 2</h2>
+                <p>Project 2 description</p>
+            </div>
+        </section>
+        <section class="spotlight">
+            <div class="image"><img src="images/pic03.jpg" alt=""/></div>
+            <div class="content">
+                <h2>Project 3</h2>
+                <p>Project 3 description</p>
+            </div>
+        </section>
+    </section>
+
+    <!-- Three -->
+    <section id="three" class="wrapper style3 special">
+        <div class="inner">
+            <header class="major">
+                <h2>Equipment</h2>
+                <p>Sentence about our equipment.</p>
+            </header>
+            <ul class="features">
+                <li>
+                    <h3>AR/VR Headsets</h3>
+                    <p>Two Line Description</p>
+                </li>
+                <li >
+                    <h3>3D Printers</h3>
+                    <p>Description</p>
+                </li>
+                <li>
+                    <h3>Holographic Fans</h3>
+                    <p>Description</p>
+                </li>
+                <li>
+                    <h3>Something else</h3>
+                    <p>Description</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="cta" class="wrapper style4">
+        <div class="inner">
+            <header>
+                <h2>we are about students</h2>
+                <p>Our projects are made by students and faculty working collaboratively.</p>
+            </header>
+            <ul class="actions stacked">
+                <li><a href="#" class="button fit primary">Get Involved</a></li>
+                <li><a href="#" class="button fit">Our Projects</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <ul class="copyright">
+            <li>Univeristy of Hawaii at Hilo</li>
+        </ul>
+    </footer>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>
